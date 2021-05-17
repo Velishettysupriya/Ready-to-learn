@@ -1,0 +1,12 @@
+# include<stdio.h>
+#include<conio.h>
+main()
+{
+int a,b;
+printf(" a,b values=");
+scanf("%d%d",&a,&b);
+a=a+b;
+b=a-b;
+a-a-b;
+printf("the a,b values = %d%d",a,b);
+}
