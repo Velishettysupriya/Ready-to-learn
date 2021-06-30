@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+ int marks;
+ cout<<"enter marks of a user:";
+ cin>>marks;
+ if (marks>=36)
+ {
+ cout<<"\n you are eligible for further";
+ }
+ else
+ {
+ cout<<"\n you are not eligible for further";
+ }
+ return 0;
